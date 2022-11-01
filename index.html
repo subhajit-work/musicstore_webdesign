@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Store</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "icon" href ="images/tittle.jpg" type = "image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  	<link rel="stylesheet" type="text/css" href="css/hover.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head> 
+<body>
+	<!--.......................................... Top bar start.......................................... -->
+	<section id="top-bar" class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<nav class="navbar navbar-inverse">
+						<div class="container">
+							<div class="navbar-header">
+							  	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>                        
+								</button>
+							</div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav navbar-left">
+									<li class="wow rotateInDownLeft"><a class=" no page-scroll hvr-bounce-to-bottom" href="#banner">MY ACCOUNT</a></li>
+									<li class="wow rotateInDownLeft"><a class="page-scroll hvr-bounce-to-bottom" href="#offer">CHECKOUT</a><i></i></li>
+									<li class="wow rotateInDownLeft"><a class="page-scroll hvr-bounce-to-bottom" href="https://colorlib.com/etc/lf/Login_v17/index.html">LOGIN</a><i></i></li>
+									<li class="wow rotateInDownLeft"><a class="page-scroll hvr-bounce-to-bottom" href="#product">SIGN UP</a><i></i></li>
+									<li class="wow rotateInDownLeft"><a class="page-scroll hvr-bounce-to-bottom" href="https://www.jotform.com/build/91191558576468">REGISTER</a><i></i></li>
+									<li class="dropdown wow rotateInDownLeft" ><a class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown" href="#">WISH LIST (0) <span class="caret"></span></a>
+							        	<ul class="dropdown-menu">
+											<li><a class="page-scroll" href="#feature">Music
+													<i class="fa fa-music" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li><a href="#">Apple
+													<i class="fa fa-apple" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li><a href="#">Android
+													<i class="fa fa-android" aria-hidden="true"></i>
+												</a>
+											</li>
+								        </ul>
+								        <i></i>
+							        </li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="col-sm-3">
+					<div class="left hvr-grow-shadow wow flash">
+						<i class="fa fa-headphones" aria-hidden="true"></i>  24X7 CUSTOMER CARE
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- ...............................................Top bar end............................................... -->
+	<!--................................................swipe menu................................................-->
+	<div class="swipe collapse ">
+		<div class="swipe-menu">
+			<ul>
+	            <li class="dropdown wow swing" >
+					<a class="dropdown-toggle page-scroll" data-toggle="dropdown" href="#banner">PRODUCT <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="#">Guiters</a></li>
+						<li><a tabindex="-1" href="#">Pianos</a></li>
+						<li class="dropdown-submenu">
+							<a class="test" tabindex="-1" href="#">Violins <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+								<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+								<li class="dropdown-submenu">
+									<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">3rd level dropdown</a></li>
+										<li><a href="#">3rd level dropdown</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+				    </ul>
+		        </li>
+	            <li>
+	                <a class="page-scroll" href="#popular-product">COMPANY</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="#brand">OFFER</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="#about">MEDIA</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="#feature">RESOURCE</a>
+	            </li>
+	            <li>
+	                <a class="page-scroll" href="#support">SUPPORT</a>
+	            </li>
+		    </ul>
+		</div>	
+	</div>
+	<!--...........................................complete swipe menu...........................................-->
+	<!--............................................. Header start............................................. -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<img class="wow bounceIn" src="images/logo.png">
+				</div>
+				<div class="cart wow tada">
+					<div class="dropdown">
+					    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">YOUR CART
+					    <span class="caret"></span></button>
+					    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">DRUM
+									<i class="fa fa-gift" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">FLUTE
+									<i class="fa fa-microphone" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">TRUMPET
+									<i class="fa fa-video-camera" aria-hidden="true"></i>
+								</a>
+							</li>
+					    </ul>
+					</div>
+				    <div class="bag">
+				    	<i class="fa fa-briefcase" aria-hidden="true"></i>
+				    	<span>0 ITEMS | $0</span>
+				    </div>
+				</div>
+			</div>
+			<div class="row">
+				<nav class="navbar navbar-inverse">
+					<div class="container">
+						<div class="navbar-header">
+						  	<button   type="button" class="navbar-toggle swipe-control">
+							    <i class="fa fa-outdent" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav navbar-left">
+								<li class="dropdown wow swing" >
+									<a class="dropdown-toggle hvr-pulse-shrink hvr-bounce-to-top" data-toggle="dropdown" href="#">PRODUCT <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a tabindex="-1" href="#">Guiters</a></li>
+										<li><a tabindex="-1" href="#">Pianos</a></li>
+										<li class="dropdown-submenu">
+											<a class="test" tabindex="-1" href="#">Violins <span class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+												<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+												<li class="dropdown-submenu">
+													<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+													<ul class="dropdown-menu">
+														<li><a href="#">3rd level dropdown</a></li>
+														<li><a href="#">3rd level dropdown</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+								    </ul>
+						        </li>
+								<li class="active wow swing">
+									<a class="page-scroll hvr-pulse-shrink hvr-bounce-to-top" href="#banner">COMPANY</a>
+								</li>
+								<li class="wow swing">
+									<a class="page-scroll hvr-pulse-shrink hvr-bounce-to-top" href="#popular-product">OFFER</a>
+								</li>
+								<li class="wow swing">
+									<a class="page-scroll hvr-pulse-shrink hvr-bounce-to-top" href="#brand">MEDIA</a>
+								</li>
+								<li class="wow swing">
+									<a class="page-scroll hvr-pulse-shrink hvr-bounce-to-top" href="#about">RESOURCE</a>
+								</li>
+								<li class="wow swing">
+									<a class="page-scroll hvr-pulse-shrink hvr-bounce-to-top" href="#support">SUPPORT</a>
+								</li>
+							</ul>
+							<div class="navbar-right wow rubberBand">
+								<input type="text" placeholder="Search.." name="search">
+								<button class="hvr-grow" type="submit"><i class="fa fa-search"></i></button>
+							</div>
+						</div>
+						
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- .............................................Header End............................................. -->
+	<!-- ............................................Banner start............................................ -->
+	<section id="banner" class="banner parallax">
+		<div class="banner-wrapper preload-bannere">
+			<div class="banner-slider banner-area">
+				<div>
+			  		<img class="wow flipInX" src="images/banner.jpg">
+				</div>
+				<div>
+					<img src="images/banner-1.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- .............................................Banner end............................................. -->
+	<!-- ..........................................Leatest product .......................................... -->
+	<section id="leatest" class="leatest parallax">
+		<div class="container">
+			<div class="row">
+				<div class="leatest-product">
+					<div class="col-sm-3">
+						<div class="left wow flipInY">
+	    					<img class="hvr-shrink" src="images/promotion-1.jpg" alt="gallery hover icon">
+					    </div>
+					</div>
+					<div class="col-sm-3">
+						<div class="left wow flipInY">
+	    					<img class="hvr-shrink" src="images/promotion-2.jpg" alt="gallery hover icon">
+					    </div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="right-up wow bounceIn">
+									<img class="hvr-shrink" src="images/promotion-3.jpg">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 right">
+								<div class="right-down wow bounceIn">
+									<img class="hvr-shrink" src="images/promotion-4.jpg">
+								</div>
+								<div class="right-down wow bounceIn">
+									<img class="hvr-shrink" src="images/promotion-5.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ......................................Leatest product end...................................... -->
+	<!-- ......................................Popular product start...................................... -->
+	<section id="popular-product" class="popular-product parallax">
+		<div class="container">
+			<div class="row">
+				<div class="tab">
+				  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">NEW ARRIVAL</button>
+				  <button class="tablinks" onclick="openCity(event, 'Paris')">MOST POPULAR PRODUCT</button>
+				</div>
+			</div>
+		</div>
+		<div class=".container-fluid">
+			<div class="row">
+				<div class="full-tab">
+					<div class="container">
+						<div class="row">
+							<div class="popular-slider">
+								<div id="London" class="tabcontent">
+									<ul>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<div class="sample-image">
+													<img class="wow fadeInDown hvr-hang" src="images/p1.jpg">
+												</div>
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+													<label>
+														<input type="radio" name="stars" value="1" />
+														<span class="icon">★</span>
+													</label>
+													<label>
+														<input type="radio" name="stars" value="2" />
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+													</label>
+													<label>
+														<input type="radio" name="stars" value="3" />
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+														<span class="icon">★</span>   
+													</label>
+													<label>
+														<input type="radio" name="stars" value="4" />
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+													</label>
+													<label>
+														<input type="radio" name="stars" value="5" />
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+														<span class="icon">★</span>
+													</label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART <i class="fa fa-plus" aria-hidden="true"></i></button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown hvr-hang" src="images/p1.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART <i class="fa fa-plus" aria-hidden="true"></i></button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown hvr-hang" src="images/p2.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART <i class="fa fa-plus" aria-hidden="true"></i></button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown hvr-hang" src="images/p3.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART <i class="fa fa-plus" aria-hidden="true"></i></button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown hvr-hang" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART <i class="fa fa-plus" aria-hidden="true"></i></button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown hvr-hang" src="images/p5.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form> 
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART <i class="fa fa-plus" aria-hidden="true"></i></button></p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="popular-slider-second">
+								<div id="Paris" class="tabcontent">
+									<ul>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form> 
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form> 
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+											</div>
+										</li>
+										<li>
+											<span><p>SALE</p></span>
+											<div>
+												<img class="wow fadeInDown" src="images/p4.jpg">
+												<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+												<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+												<form class="rating wow bounce">
+												  <label>
+												    <input type="radio" name="stars" value="1" />
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="2" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="3" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>   
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="4" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												  <label>
+												    <input type="radio" name="stars" value="5" />
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												    <span class="icon">★</span>
+												  </label>
+												</form>
+												<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ..................................Popular product section end.................................. -->
+	<!-- ....................................Beat offer section start.................................... -->
+	<section id="best-offer" class="best-offer parallax">
+		<div class="container">
+			<div class="row">
+				<div class="image">
+					<span class="left"></span><img class="hvr-buzz wow flip" src="images/clearance_sale.png"><span class="right"></span>
+				</div>
+				<div class="offer-slider">
+					<div class="col-sm-3">
+						<div class="offer-product">
+							<span class="new"><p>SALE</p></span>
+							<img class="wow fadeInDown hvr-wobble-to-bottom-right" src="images/p1.jpg">
+							<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+							<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+							<form class="rating wow bounce">
+								<label>
+									<input type="radio" name="stars" value="1" />
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="2" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="3" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>   
+								</label>
+								<label>
+									<input type="radio" name="stars" value="4" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="5" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+							</form>
+							<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="offer-product">
+							<span class="new"><p>SALE</p></span>
+							<img class="wow fadeInDown hvr-wobble-to-bottom-right" src="images/p1.jpg">
+							<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+							<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+							<form class="rating wow bounce">
+								<label>
+									<input type="radio" name="stars" value="1" />
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="2" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="3" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>   
+								</label>
+								<label>
+									<input type="radio" name="stars" value="4" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="5" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+							</form>
+							<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="offer-product">
+							<span class="new"><p>SALE</p></span>
+							<img class="wow fadeInDown hvr-wobble-to-bottom-right" src="images/p1.jpg">
+							<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+							<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+							<form class="rating wow bounce">
+								<label>
+									<input type="radio" name="stars" value="1" />
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="2" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="3" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>   
+								</label>
+								<label>
+									<input type="radio" name="stars" value="4" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="5" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+							</form>
+							<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="offer-product">
+							<span class="new"><p>SALE</p></span>
+							<img class="wow fadeInDown hvr-wobble-to-bottom-right" src="images/p1.jpg">
+							<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+							<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+							<form class="rating wow bounce">
+								<label>
+									<input type="radio" name="stars" value="1" />
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="2" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="3" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>   
+								</label>
+								<label>
+									<input type="radio" name="stars" value="4" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="5" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+							</form>
+							<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="offer-product">
+							<span class="new"><p>SALE</p></span>
+							<img class="wow fadeInDown hvr-wobble-to-bottom-right" src="images/p1.jpg">
+							<p class="wow bounceInLeft product-name">PRODUCT NAME</p>
+							<h5 class="wow bounceInRight"><i>RS.200.00</i> &nbsp; <span>RS.1900.00<span></h5>
+							<form class="rating wow bounce">
+								<label>
+									<input type="radio" name="stars" value="1" />
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="2" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="3" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>   
+								</label>
+								<label>
+									<input type="radio" name="stars" value="4" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+								<label>
+									<input type="radio" name="stars" value="5" />
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+									<span class="icon">★</span>
+								</label>
+							</form>
+							<p><button type="button" class="btn btn-warning btn-md hvr-shrink wow bounceInUp">ADD TO CART +</button></p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!--...................................... Best offer section end...................................... -->
+	<!-- ........................................Brand section start........................................ -->
+	<section id="brand" class="brand parallax">
+		<div class="container">
+			<h4 class="wow rotateInDownLeft"><span class="left"></span>FAVOURITE BRANDS<span class="right"></span></h4>
+			<ul class="brand-logo">
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b1.jpg">
+				</li>
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b2.jpg">
+				</li>
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b3.jpg">
+				</li>
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b4.jpg">
+				</li>
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b5.jpg">
+				</li>
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b6.jpg">
+				</li>
+				<li>
+					<img class="hvr-push wow rotateIn" src="images/b1.jpg">
+				</li>
+			</ul>
+		<span class="down"></span>
+		</div>
+	</section>
+	<!-- ......................................Brand section end...................................... -->
+	<!-- .....................................About section start..................................... -->
+	<section id="about" class="about parallax">
+		<div class="container">
+			<div class="row">
+				<h3 class="wow rotateInDownLeft">ABOUT MUSIC SHOP</h3>
+				<P class="wow fadeInLeft" >
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+				</P>
+				<P class="wow fadeInLeft" >
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+				</P>
+			</div>
+		</div>
+	</section>
+	<!-- ........................................About section end........................................ -->
+	<!-- ......................................Checking section start...................................... -->
+	<section id="checking" class="checking">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="news-latter">
+						<label class="wow slideInLeft">NEWSLETTER:</label>
+						<input class="wow bounceInUp" type="text" name="news" placeholder="Your email address">
+						<a href="#" class="btn btn-warning hvr-grow wow fadeInRight">
+				          <span class="glyphicon glyphicon-plus"></span> 
+				        </a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="payment">
+						<label class="wow slideInRight">WE ACCEPT :</label>
+						<img class="hvr-glow wow bounceInDown" src="images/payment-option-1.jpg">
+						<img class="hvr-glow wow bounceInUp" src="images/payment-option-2.jpg">
+						<img class="hvr-glow wow bounceInDown" src="images/payment-option-3.jpg">
+						<img class="hvr-glow wow bounceInUp" src="images/payment-option-4.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ..................................Checking section section end.................................. -->
+	<!--........................................Support section start........................................-->
+	<section id="support" class="support parallax">
+		<div class="container">
+			<div class="support-section">
+				<div class="row">
+					<div class="col-sm-9">
+						<ul class="support-menu">
+							<li class="support-menu-item">
+								<nav class="navbar navbar-inverse">
+								  <div class="container-fluid">
+								    <div class="navbar-header">
+								      <button type="button" class="switch navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
+								        <span class="glyphicon glyphicon-plus"></span>                      
+								      </button>
+								      <h3 class="navbar-brand wow lightSpeedIn" href="">CUSTOMER SERVICE</h3>
+								    </div>
+								    <div class="collapse navbar-collapse" id="myNavbar1">
+								      <ul class="nav navbar-nav ul-box">
+								        <li class="wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Contact</a></li>
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">FAQ</a></li>
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Terms of payment</a></li>
+								        <li class="wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Terms of sale</a></li>
+								        <li class="wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Delivery terms and condition</a></li>
+								      </ul>
+								    </div>
+								  </div>
+								</nav>
+							</li>
+							<li class="support-menu-item">
+								<nav class="navbar navbar-inverse">
+								  <div class="container-fluid">
+								    <div class="navbar-header">
+								      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar4">
+								        <span class="glyphicon glyphicon-plus"></span>                       
+								      </button>
+								      <h3 class="navbar-brand wow lightSpeedIn" href="">INFORMATION</h3>
+								    </div>
+								    <div class="collapse navbar-collapse" id="myNavbar4">
+								      <ul class="nav navbar-nav ul-box">
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Affiliate</a></li>
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Cookies</a></li>
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">How to shop</a></li>
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">About Nelly</a></li>
+								        <li class="wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Investor relations</a></li>
+								      </ul>
+								    </div>
+								  </div>
+								</nav>
+							</li>
+							<li class="support-menu-item">
+								<nav class="navbar navbar-inverse">
+								  <div class="container-fluid">
+								    <div class="navbar-header">
+								      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar7">
+								        <span class="glyphicon glyphicon-plus"></span>                       
+								      </button>
+								      <h3 class="navbar-brand wow lightSpeedIn" href="">CAMPAIGNS</h3>
+								    </div>
+								    <div class="collapse navbar-collapse" id="myNavbar7">
+								      <ul class="nav navbar-nav ul-box">
+								        <li class=" wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Evening dresses</a></li>
+								        <li class="wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Makeup</a></li>
+								        <li class="wow rotateInUpLeft"><a class="hvr-bubble-float-left" href="#">Fashion forward</a></li>
+								      </ul>
+								    </div>
+								  </div>
+								</nav>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 right-part">
+						<h4 class="wow lightSpeedIn">SOCIAL</h4>
+						<div class="row">
+							<div class="social-box">
+								<div class="col-sm-6">
+									<div class="social">
+									    <ul>
+											<li class="social wow rotateIn hvr-float">
+												<a class="facebook" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+											</li>
+											<li class="social wow rotateIn hvr-float">
+												<a class="twitter" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+											</li>
+											<li class="social wow rotateIn hvr-float">
+												<a class="g-plus" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+											</li>
+											<li class="social wow rotateIn hvr-float">
+												<a class="facebook" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></i></a>
+											</li>
+											<li class="social wow rotateIn hvr-float">
+												<a class="twitter" href=""><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+											</li>
+											<li class="social wow rotateIn hvr-float">
+												<a class="" href=""><i class="fa fa-vine" aria-hidden="true"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<img class="hvr-wobble-skew wow swing" src="images/secured.png">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--..................................... Support section end .....................................-->
+	<!--..........................................Footer start..........................................-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer-text">
+				<div class="col-md-6 copyright wow lightSpeedIn">
+					<p>&copy; Company Name- All Right Reserved </p>
+				</div>
+				<div class="col-md-6 powered-by wow lightSpeedIn">
+					<p>Powered By: <a href="http://www.rnjcs.in/">RNJ Consultancy Services Pvt Ltd</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--...........................................Footer End...........................................-->
+	<!-- .......................................Back to top Start.......................................-->
+	<div class="visible-desktop">
+	    <p id="back-top">
+	        <a><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+	    </p>
+	</div>
+	<!--....................................... Back to top End .......................................-->
+
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/slick.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.parallax.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript">
+		 new WOW().init();
+		// Loading Gif start
+  		$(window).load(function() {
+	       $(".banner-wrapper").removeClass("preload-bannere");
+	       $(".banner").show(3000);
+	      // alert("load-complite");
+	      });
+	    // End loading gif
+
+		function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
+</body>
+</html>
